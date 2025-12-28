@@ -28,7 +28,7 @@ config/database.ts
 
 ![image](config.png)
 
-### IIf you face the same issue as I did, even after correcting everything, try this step once.
+### If you face the same issue as I did, even after correcting everything, try this step once.
 
 ### Workflows of this project
 
