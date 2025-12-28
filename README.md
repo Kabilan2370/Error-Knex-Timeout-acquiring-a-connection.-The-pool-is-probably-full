@@ -51,20 +51,20 @@ Container (Strapi on Port 1337)
 
 ## Important
 
-I created **four security groups** and configured them as follows:
+I created **three 3 security groups** and configured them as follows:
 
-1. **ALB Security Group**
+1. **ALB Security Group (1 for alb)**
    - Inbound rules: **80** and **443**
    - Listener configured on **port 80**
 
 2. **Target Groups (Blue & Green)**
    - Application traffic routed to **port 1337**
 
-3. **ECS Security Group**
+3. **ECS Security Group (2 for ECS)**
    - Container runs on **port 1337**
    - **ALB security group is allowed as an inbound rule**
 
-4. **RDS PostgreSQL Security Group**
+4. **RDS PostgreSQL Security Group (3 for RDS)**
    - Inbound rule on **port 5432**
    - **ECS security group is allowed as an inbound rule**
 
