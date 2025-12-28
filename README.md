@@ -68,7 +68,7 @@ I created **three 3 security groups** and configured them as follows:
    - Inbound rule on **port 5432**
    - **ECS security group is allowed as an inbound rule**
 
-![image](database.png)
+![image](security.png)
 
 Previously, I had mistakenly attached the **ALB security group** to the **RDS inbound rule**. After realizing this and replacing it with the **ECS security group**, the issue was resolved and everything is working correctly now.
 
