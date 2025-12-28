@@ -42,7 +42,7 @@ ALB Target Group (Port 1337)
   ↓
 ECS Service (Fargate Tasks)
   ↓
-### Postgres RDS (Attach ECS security group)  # IMPORTANT Here I made the mistake
+### Postgres RDS (Attach ECS security group)  IMPORTANT Here I made the mistake
   ↓
 Container (Strapi on Port 1337)
 
