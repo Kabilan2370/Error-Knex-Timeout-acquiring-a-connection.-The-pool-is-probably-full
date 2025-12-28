@@ -26,7 +26,7 @@ Set up a GitHub Actions workflow to handle deployment:
 
 config/database.ts 
 
-![image](config)
+![image](config.png)
 
 ### IIf you face the same issue as I did, even after correcting everything, try this step once.
 
